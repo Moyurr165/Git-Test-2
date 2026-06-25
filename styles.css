@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.blog-post-card {
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-right: 10px solid rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 0px 0px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 340px;
+    padding: 20px;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+}
+.blog-post-image {
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 20px;
+}
+.learning-button {
+    background-color: rgb(226, 194, 49);
+    border-radius: 5px;
+    color: black;
+    padding: 9px;
+    align-items: left;
+    font-size: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 800;
+}
+.learning-button:active {
+    background-color: rgb(153, 153, 17);
+}
+.publish-date {
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.blog-post-title {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(233, 233, 37);
+}
+.blog-post-description {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.blog-post-founder {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.author-avatar  {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.author-name {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
