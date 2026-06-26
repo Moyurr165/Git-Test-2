@@ -3,6 +3,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
+    padding: 20px;
 }
 .blog-post-card {
     background-color: white;
@@ -12,7 +13,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0px 0px rgb(0, 0, 0);
     width: 100%;
-    max-width: 340px;
+    max-width: 320px;
     padding: 20px;
     align-items: center;
     font-family: "Figtree", sans-serif;
@@ -20,10 +21,6 @@ body {
 .blog-post-image {
     width: 100%;
     height: auto;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
     border-radius: 20px;
 }
 .learning-button {
