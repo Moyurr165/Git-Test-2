@@ -13,8 +13,8 @@ body {
     border-radius: 20px;
     box-shadow: 0 0px 0px rgb(0, 0, 0);
     width: 100%;
-    max-width: 340px;
-    padding: 20px;
+    max-width: 360px;
+    padding: 16px;
     align-items: center;
     font-family: "Figtree", sans-serif;
 }
