@@ -3,7 +3,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    padding: 20px;
+    padding: 16px;
 }
 .blog-post-card {
     background-color: white;
